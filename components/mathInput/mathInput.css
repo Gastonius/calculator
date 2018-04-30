@@ -1,0 +1,33 @@
+
+.fieldEncloser {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.fieldinput {
+  border-style: solid;
+  border-color: rgb(139, 195, 74);
+  border-width: 1px;
+  padding: .5rem;
+  width: 50vw;
+  font-weight: 100;
+  font-size: 1rem;
+  color: rgba(0,0,0,.87);
+  outline: none;
+}
+
+.fieldinput:focus {
+  border-color: rgb(255,160,40);
+}
+
+.error {
+  color: #ce0000;
+  border: 1px solid red;
+  display: block;
+  position: absolute;
+  right: 1rem;
+  padding: .2rem 1rem;
+  top: 3.8rem;
+  background-color: #fff1f1;
+  border-radius: 2px;
+}
